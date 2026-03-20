@@ -1,0 +1,2113 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$KKiIc5yWdFKObBfXsVULkB$FxmhXy0Gy1qrAIdJuTk9KJHOjv7Z+CnXDNz3eAdaQ/c=",
+    "last_login": "2026-03-18T07:03:17.187Z",
+    "is_superuser": true,
+    "username": "Taruni",
+    "first_name": "",
+    "last_name": "",
+    "email": "karrataruni@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-10T10:32:49.138Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$4XK54LeW7IqWRlWCV6J79u$zKVUGgdh1AIMqZ2mALXo3bGsQmu+6Ns8dC/tsCRZFKA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Ajith",
+    "first_name": "Ajith",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-02-04T12:04:05Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$uqLemTRVyg1GObgxhvUQd1$a5jw2T9H28MSXV/f9exAmhEOmvLD1xnEl78NqlvGZJo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Sagar",
+    "first_name": "Sagar",
+    "last_name": "Karra",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-02-14T11:52:21Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$Mm8YenKQ9zb182MvE0cWyl$GoeP7VsFHxaW8t/yeTrKe5kHVlK1RqM9b5p7Ip4YC5o=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-03-18T06:50:49.013Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 1,
+  "fields": {
+    "name": "AF"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 2,
+  "fields": {
+    "name": "AX"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 3,
+  "fields": {
+    "name": "AL"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 4,
+  "fields": {
+    "name": "DZ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 5,
+  "fields": {
+    "name": "AS"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 6,
+  "fields": {
+    "name": "AD"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 7,
+  "fields": {
+    "name": "AO"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 8,
+  "fields": {
+    "name": "AI"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 9,
+  "fields": {
+    "name": "AQ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 10,
+  "fields": {
+    "name": "AG"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 11,
+  "fields": {
+    "name": "AR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 12,
+  "fields": {
+    "name": "AM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 13,
+  "fields": {
+    "name": "AW"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 14,
+  "fields": {
+    "name": "AU"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 15,
+  "fields": {
+    "name": "AT"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 16,
+  "fields": {
+    "name": "AZ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 17,
+  "fields": {
+    "name": "BS"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 18,
+  "fields": {
+    "name": "BH"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 19,
+  "fields": {
+    "name": "BD"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 20,
+  "fields": {
+    "name": "BB"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 21,
+  "fields": {
+    "name": "BY"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 22,
+  "fields": {
+    "name": "BE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 23,
+  "fields": {
+    "name": "BZ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 24,
+  "fields": {
+    "name": "BJ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 25,
+  "fields": {
+    "name": "BM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 26,
+  "fields": {
+    "name": "BT"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 27,
+  "fields": {
+    "name": "BO"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 28,
+  "fields": {
+    "name": "BQ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 29,
+  "fields": {
+    "name": "BA"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 30,
+  "fields": {
+    "name": "BW"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 31,
+  "fields": {
+    "name": "BV"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 32,
+  "fields": {
+    "name": "BR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 33,
+  "fields": {
+    "name": "IO"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 34,
+  "fields": {
+    "name": "BN"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 35,
+  "fields": {
+    "name": "BG"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 36,
+  "fields": {
+    "name": "BF"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 37,
+  "fields": {
+    "name": "BI"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 38,
+  "fields": {
+    "name": "CV"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 39,
+  "fields": {
+    "name": "KH"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 40,
+  "fields": {
+    "name": "CM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 41,
+  "fields": {
+    "name": "CA"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 42,
+  "fields": {
+    "name": "KY"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 43,
+  "fields": {
+    "name": "CF"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 44,
+  "fields": {
+    "name": "TD"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 45,
+  "fields": {
+    "name": "CL"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 46,
+  "fields": {
+    "name": "CN"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 47,
+  "fields": {
+    "name": "CX"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 48,
+  "fields": {
+    "name": "CC"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 49,
+  "fields": {
+    "name": "CO"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 50,
+  "fields": {
+    "name": "KM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 51,
+  "fields": {
+    "name": "CG"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 52,
+  "fields": {
+    "name": "CK"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 53,
+  "fields": {
+    "name": "CR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 54,
+  "fields": {
+    "name": "CI"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 55,
+  "fields": {
+    "name": "HR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 56,
+  "fields": {
+    "name": "CU"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 57,
+  "fields": {
+    "name": "CW"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 58,
+  "fields": {
+    "name": "CY"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 59,
+  "fields": {
+    "name": "CZ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 60,
+  "fields": {
+    "name": "CD"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 61,
+  "fields": {
+    "name": "DK"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 62,
+  "fields": {
+    "name": "DJ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 63,
+  "fields": {
+    "name": "DM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 64,
+  "fields": {
+    "name": "DO"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 65,
+  "fields": {
+    "name": "EC"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 66,
+  "fields": {
+    "name": "EG"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 67,
+  "fields": {
+    "name": "SV"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 68,
+  "fields": {
+    "name": "GQ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 69,
+  "fields": {
+    "name": "ER"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 70,
+  "fields": {
+    "name": "EE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 71,
+  "fields": {
+    "name": "SZ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 72,
+  "fields": {
+    "name": "ET"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 73,
+  "fields": {
+    "name": "FK"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 74,
+  "fields": {
+    "name": "FO"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 75,
+  "fields": {
+    "name": "FJ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 76,
+  "fields": {
+    "name": "FI"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 77,
+  "fields": {
+    "name": "FR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 78,
+  "fields": {
+    "name": "GF"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 79,
+  "fields": {
+    "name": "PF"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 80,
+  "fields": {
+    "name": "TF"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 81,
+  "fields": {
+    "name": "GA"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 82,
+  "fields": {
+    "name": "GM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 83,
+  "fields": {
+    "name": "GE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 84,
+  "fields": {
+    "name": "DE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 85,
+  "fields": {
+    "name": "GH"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 86,
+  "fields": {
+    "name": "GI"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 87,
+  "fields": {
+    "name": "GR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 88,
+  "fields": {
+    "name": "GL"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 89,
+  "fields": {
+    "name": "GD"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 90,
+  "fields": {
+    "name": "GP"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 91,
+  "fields": {
+    "name": "GU"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 92,
+  "fields": {
+    "name": "GT"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 93,
+  "fields": {
+    "name": "GG"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 94,
+  "fields": {
+    "name": "GN"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 95,
+  "fields": {
+    "name": "GW"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 96,
+  "fields": {
+    "name": "GY"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 97,
+  "fields": {
+    "name": "HT"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 98,
+  "fields": {
+    "name": "HM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 99,
+  "fields": {
+    "name": "HN"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 100,
+  "fields": {
+    "name": "HK"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 101,
+  "fields": {
+    "name": "HU"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 102,
+  "fields": {
+    "name": "IS"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 103,
+  "fields": {
+    "name": "IN"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 104,
+  "fields": {
+    "name": "ID"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 105,
+  "fields": {
+    "name": "IR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 106,
+  "fields": {
+    "name": "IQ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 107,
+  "fields": {
+    "name": "IE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 108,
+  "fields": {
+    "name": "IM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 109,
+  "fields": {
+    "name": "IL"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 110,
+  "fields": {
+    "name": "IT"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 111,
+  "fields": {
+    "name": "JM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 112,
+  "fields": {
+    "name": "JP"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 113,
+  "fields": {
+    "name": "JE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 114,
+  "fields": {
+    "name": "JO"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 115,
+  "fields": {
+    "name": "KZ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 116,
+  "fields": {
+    "name": "KE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 117,
+  "fields": {
+    "name": "KI"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 118,
+  "fields": {
+    "name": "KW"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 119,
+  "fields": {
+    "name": "KG"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 120,
+  "fields": {
+    "name": "LA"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 121,
+  "fields": {
+    "name": "LV"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 122,
+  "fields": {
+    "name": "LB"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 123,
+  "fields": {
+    "name": "LS"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 124,
+  "fields": {
+    "name": "LR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 125,
+  "fields": {
+    "name": "LY"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 126,
+  "fields": {
+    "name": "LI"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 127,
+  "fields": {
+    "name": "LT"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 128,
+  "fields": {
+    "name": "LU"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 129,
+  "fields": {
+    "name": "MO"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 130,
+  "fields": {
+    "name": "MG"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 131,
+  "fields": {
+    "name": "MW"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 132,
+  "fields": {
+    "name": "MY"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 133,
+  "fields": {
+    "name": "MV"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 134,
+  "fields": {
+    "name": "ML"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 135,
+  "fields": {
+    "name": "MT"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 136,
+  "fields": {
+    "name": "MH"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 137,
+  "fields": {
+    "name": "MQ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 138,
+  "fields": {
+    "name": "MR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 139,
+  "fields": {
+    "name": "MU"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 140,
+  "fields": {
+    "name": "YT"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 141,
+  "fields": {
+    "name": "MX"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 142,
+  "fields": {
+    "name": "FM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 143,
+  "fields": {
+    "name": "MD"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 144,
+  "fields": {
+    "name": "MC"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 145,
+  "fields": {
+    "name": "MN"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 146,
+  "fields": {
+    "name": "ME"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 147,
+  "fields": {
+    "name": "MS"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 148,
+  "fields": {
+    "name": "MA"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 149,
+  "fields": {
+    "name": "MZ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 150,
+  "fields": {
+    "name": "MM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 151,
+  "fields": {
+    "name": "NA"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 152,
+  "fields": {
+    "name": "NR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 153,
+  "fields": {
+    "name": "NP"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 154,
+  "fields": {
+    "name": "NL"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 155,
+  "fields": {
+    "name": "NC"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 156,
+  "fields": {
+    "name": "NZ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 157,
+  "fields": {
+    "name": "NI"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 158,
+  "fields": {
+    "name": "NE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 159,
+  "fields": {
+    "name": "NG"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 160,
+  "fields": {
+    "name": "NU"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 161,
+  "fields": {
+    "name": "NF"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 162,
+  "fields": {
+    "name": "KP"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 163,
+  "fields": {
+    "name": "MK"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 164,
+  "fields": {
+    "name": "MP"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 165,
+  "fields": {
+    "name": "NO"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 166,
+  "fields": {
+    "name": "OM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 167,
+  "fields": {
+    "name": "PK"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 168,
+  "fields": {
+    "name": "PW"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 169,
+  "fields": {
+    "name": "PS"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 170,
+  "fields": {
+    "name": "PA"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 171,
+  "fields": {
+    "name": "PG"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 172,
+  "fields": {
+    "name": "PY"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 173,
+  "fields": {
+    "name": "PE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 174,
+  "fields": {
+    "name": "PH"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 175,
+  "fields": {
+    "name": "PN"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 176,
+  "fields": {
+    "name": "PL"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 177,
+  "fields": {
+    "name": "PT"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 178,
+  "fields": {
+    "name": "PR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 179,
+  "fields": {
+    "name": "QA"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 180,
+  "fields": {
+    "name": "RE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 181,
+  "fields": {
+    "name": "RO"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 182,
+  "fields": {
+    "name": "RU"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 183,
+  "fields": {
+    "name": "RW"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 184,
+  "fields": {
+    "name": "BL"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 185,
+  "fields": {
+    "name": "SH"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 186,
+  "fields": {
+    "name": "KN"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 187,
+  "fields": {
+    "name": "LC"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 188,
+  "fields": {
+    "name": "MF"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 189,
+  "fields": {
+    "name": "PM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 190,
+  "fields": {
+    "name": "VC"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 191,
+  "fields": {
+    "name": "WS"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 192,
+  "fields": {
+    "name": "SM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 193,
+  "fields": {
+    "name": "ST"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 194,
+  "fields": {
+    "name": "SA"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 195,
+  "fields": {
+    "name": "SN"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 196,
+  "fields": {
+    "name": "RS"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 197,
+  "fields": {
+    "name": "SC"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 198,
+  "fields": {
+    "name": "SL"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 199,
+  "fields": {
+    "name": "SG"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 200,
+  "fields": {
+    "name": "SX"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 201,
+  "fields": {
+    "name": "SK"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 202,
+  "fields": {
+    "name": "SI"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 203,
+  "fields": {
+    "name": "SB"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 204,
+  "fields": {
+    "name": "SO"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 205,
+  "fields": {
+    "name": "ZA"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 206,
+  "fields": {
+    "name": "GS"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 207,
+  "fields": {
+    "name": "KR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 208,
+  "fields": {
+    "name": "SS"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 209,
+  "fields": {
+    "name": "ES"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 210,
+  "fields": {
+    "name": "LK"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 211,
+  "fields": {
+    "name": "SD"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 212,
+  "fields": {
+    "name": "SR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 213,
+  "fields": {
+    "name": "SJ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 214,
+  "fields": {
+    "name": "SE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 215,
+  "fields": {
+    "name": "CH"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 216,
+  "fields": {
+    "name": "SY"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 217,
+  "fields": {
+    "name": "TW"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 218,
+  "fields": {
+    "name": "TJ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 219,
+  "fields": {
+    "name": "TZ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 220,
+  "fields": {
+    "name": "TH"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 221,
+  "fields": {
+    "name": "TL"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 222,
+  "fields": {
+    "name": "TG"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 223,
+  "fields": {
+    "name": "TK"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 224,
+  "fields": {
+    "name": "TO"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 225,
+  "fields": {
+    "name": "TT"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 226,
+  "fields": {
+    "name": "TN"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 227,
+  "fields": {
+    "name": "TR"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 228,
+  "fields": {
+    "name": "TM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 229,
+  "fields": {
+    "name": "TC"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 230,
+  "fields": {
+    "name": "TV"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 231,
+  "fields": {
+    "name": "UG"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 232,
+  "fields": {
+    "name": "UA"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 233,
+  "fields": {
+    "name": "AE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 234,
+  "fields": {
+    "name": "GB"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 235,
+  "fields": {
+    "name": "UM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 236,
+  "fields": {
+    "name": "US"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 237,
+  "fields": {
+    "name": "UY"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 238,
+  "fields": {
+    "name": "UZ"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 239,
+  "fields": {
+    "name": "VU"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 240,
+  "fields": {
+    "name": "VA"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 241,
+  "fields": {
+    "name": "VE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 242,
+  "fields": {
+    "name": "VN"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 243,
+  "fields": {
+    "name": "VG"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 244,
+  "fields": {
+    "name": "VI"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 245,
+  "fields": {
+    "name": "WF"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 246,
+  "fields": {
+    "name": "EH"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 247,
+  "fields": {
+    "name": "YE"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 248,
+  "fields": {
+    "name": "ZM"
+  }
+},
+{
+  "model": "timesheet.country",
+  "pk": 249,
+  "fields": {
+    "name": "ZW"
+  }
+},
+{
+  "model": "timesheet.client",
+  "pk": 1,
+  "fields": {
+    "name": "MICROSOFT",
+    "is_active": true
+  }
+},
+{
+  "model": "timesheet.client",
+  "pk": 2,
+  "fields": {
+    "name": "SOFTIFY",
+    "is_active": true
+  }
+},
+{
+  "model": "timesheet.client",
+  "pk": 3,
+  "fields": {
+    "name": "Google",
+    "is_active": true
+  }
+},
+{
+  "model": "timesheet.project",
+  "pk": 1,
+  "fields": {
+    "name": "MENTOR_MENTEE_APPLICATION",
+    "code": null,
+    "client": "SOFTIFY",
+    "compliance_rules": "Follow 40‑hour weekly limit",
+    "is_active": true
+  }
+},
+{
+  "model": "timesheet.project",
+  "pk": 3,
+  "fields": {
+    "name": "COPILOT DASHBOARD",
+    "code": null,
+    "client": "MICROSOFT",
+    "compliance_rules": "",
+    "is_active": true
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 1,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-02-10",
+    "hours": "8.00",
+    "task": "Installed all necessary requirements",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 2,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-02-09",
+    "hours": "8.00",
+    "task": "Development",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 3,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-02-16",
+    "hours": "8.00",
+    "task": "Development",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 4,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-02-16",
+    "hours": "8.00",
+    "task": "Development",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 5,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-02-09",
+    "hours": "8.00",
+    "task": "Development",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 6,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-02-23",
+    "hours": "8.00",
+    "task": "Development",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 7,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-02-09",
+    "hours": "8.00",
+    "task": "Development",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 8,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-01-05",
+    "hours": "8.00",
+    "task": "Development",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 9,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-03-30",
+    "hours": "8.00",
+    "task": "Development",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 10,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-03-16",
+    "hours": "8.00",
+    "task": "Development",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 11,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-04-27",
+    "hours": "8.00",
+    "task": "Development",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 12,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-02-09",
+    "hours": "8.00",
+    "task": "Development",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 13,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-02-16",
+    "hours": "8.00",
+    "task": "Development",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 14,
+  "fields": {
+    "employee": 1,
+    "project": 1,
+    "date": "2026-03-16",
+    "hours": "8.00",
+    "task": "Development",
+    "notes": ""
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 18,
+  "fields": {
+    "employee": 4,
+    "project": 1,
+    "date": "2026-03-18",
+    "hours": "2.50",
+    "task": "Test Task",
+    "notes": "Some notes"
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 21,
+  "fields": {
+    "employee": 4,
+    "project": 1,
+    "date": "2026-09-28",
+    "hours": "8.00",
+    "task": "General Task",
+    "notes": "Country: Afghanistan, Independence: Yes"
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 22,
+  "fields": {
+    "employee": 4,
+    "project": 1,
+    "date": "2026-09-29",
+    "hours": "8.00",
+    "task": "General Task",
+    "notes": "Country: Afghanistan, Independence: Yes"
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 23,
+  "fields": {
+    "employee": 4,
+    "project": 1,
+    "date": "2026-10-01",
+    "hours": "8.00",
+    "task": "General Task",
+    "notes": "Country: Afghanistan, Independence: Yes"
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 24,
+  "fields": {
+    "employee": 4,
+    "project": 1,
+    "date": "2026-09-30",
+    "hours": "8.00",
+    "task": "General Task",
+    "notes": "Country: Afghanistan, Independence: Yes"
+  }
+},
+{
+  "model": "timesheet.timeentry",
+  "pk": 25,
+  "fields": {
+    "employee": 4,
+    "project": 1,
+    "date": "2026-10-02",
+    "hours": "8.00",
+    "task": "General Task",
+    "notes": "Country: Afghanistan, Independence: Yes"
+  }
+},
+{
+  "model": "timesheet.approval",
+  "pk": 1,
+  "fields": {
+    "time_entry": 1,
+    "manager": 1,
+    "status": "Approved",
+    "comments": "",
+    "timestamp": "2026-02-10T10:54:47.293Z"
+  }
+}
