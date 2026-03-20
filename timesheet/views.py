@@ -78,7 +78,7 @@ class TimeCardViewSet(ModelViewSet):
 
     def get_queryset(self):
         # Only show timecards for the logged-in user
-        return TimeCard.objects.filter(employee=self.request.user).prefetch_related('entries')
+        return TimeCard.objects.filter(employee=self.request.user)
 
     def perform_create(self, serializer):
         # Attach the logged-in user when creating
@@ -95,8 +95,8 @@ class TeamTimecardViewSet(viewsets.ModelViewSet):
         if not hasattr(user, 'profile') or user.profile.role == 'Employee':
             return TimeCard.objects.none()
         
-        # Optimize DB queries with select_related and prefetch_related to fix N+1
-        base_qs = TimeCard.objects.select_related('employee', 'employee__profile').prefetch_related('entries', 'entries__project', 'entries__project__client')
+        # Optimize DB queries with select_related
+        base_qs = TimeCard.objects.select_related('employee', 'employee__profile')
         
         # Admins see everything
         if user.profile.role == 'Admin':
