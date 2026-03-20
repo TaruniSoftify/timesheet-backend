@@ -30,8 +30,8 @@ class TimeEntryViewSet(viewsets.ModelViewSet):
     permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
-        # ONLY return data of logged-in user
-        return TimeEntry.objects.filter(employee=self.request.user)
+        # ONLY return data of logged-in user and eagerly load foreign keys
+        return TimeEntry.objects.filter(employee=self.request.user).select_related('project', 'project__client')
 
     def perform_create(self, serializer):
         # Automatically attach logged-in user
@@ -78,7 +78,7 @@ class TimeCardViewSet(ModelViewSet):
 
     def get_queryset(self):
         # Only show timecards for the logged-in user
-        return TimeCard.objects.filter(employee=self.request.user)
+        return TimeCard.objects.filter(employee=self.request.user).prefetch_related('entries')
 
     def perform_create(self, serializer):
         # Attach the logged-in user when creating
@@ -95,12 +95,15 @@ class TeamTimecardViewSet(viewsets.ModelViewSet):
         if not hasattr(user, 'profile') or user.profile.role == 'Employee':
             return TimeCard.objects.none()
         
+        # Optimize DB queries with select_related and prefetch_related to fix N+1
+        base_qs = TimeCard.objects.select_related('employee', 'employee__profile').prefetch_related('entries', 'entries__project', 'entries__project__client')
+        
         # Admins see everything
         if user.profile.role == 'Admin':
-            return TimeCard.objects.exclude(status='Draft', total_hours=0).order_by('-created_at')
+            return base_qs.exclude(status='Draft', total_hours=0).order_by('-created_at')
             
         # Managers ONLY see employees explicitly assigned to them in the database
-        return TimeCard.objects.filter(employee__profile__manager=user).exclude(status='Draft').order_by('-created_at')
+        return base_qs.filter(employee__profile__manager=user).exclude(status='Draft').order_by('-created_at')
 
 from django.http import JsonResponse
 from rest_framework.decorators import api_view, permission_classes
@@ -134,13 +137,13 @@ def debug_users(request):
 from django.contrib.auth.models import User
 
 class UserViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all().order_by('-date_joined')
+    queryset = User.objects.select_related('profile', 'profile__manager').order_by('-date_joined')
     serializer_class = UserSerializer
     permission_classes = [IsAuthenticated] # Or IsAdminUser if strict
 
     def get_queryset(self):
-        # Optional: restrict non-admins, but for now return all
-        return User.objects.all().order_by('-date_joined')
+        # Optimize DB queries with select_related to fix N+1
+        return User.objects.select_related('profile', 'profile__manager').order_by('-date_joined')
 
     def perform_create(self, serializer):
         # Allow the UserSerializer to cascade create the profile using the nested payload
