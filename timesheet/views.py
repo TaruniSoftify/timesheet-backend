@@ -31,7 +31,7 @@ class TimeEntryViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         # ONLY return data of logged-in user and eagerly load foreign keys
-        return TimeEntry.objects.filter(employee=self.request.user).select_related('project', 'project__client')
+        return TimeEntry.objects.filter(employee=self.request.user).select_related('project')
 
     def perform_create(self, serializer):
         # Automatically attach logged-in user
