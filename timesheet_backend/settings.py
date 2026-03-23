@@ -122,7 +122,7 @@ DATABASES = {
 # Override database if DATABASE_URL is provided (e.g., in production)
 db_url = os.getenv('DATABASE_URL')
 if db_url:
-    DATABASES['default'] = dj_database_url.parse(db_url, conn_max_age=600)
+    DATABASES['default'] = dj_database_url.parse(db_url, conn_max_age=0)
 
 
 # Password validation
