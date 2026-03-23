@@ -37,6 +37,33 @@ class TimeEntryViewSet(viewsets.ModelViewSet):
         # Automatically attach logged-in user
         serializer.save(employee=self.request.user)
 
+    from rest_framework.decorators import action
+    from django.db import transaction
+
+    @action(detail=False, methods=['post'])
+    @transaction.atomic
+    def bulk_save(self, request):
+        dates = request.data.get('dates', [])
+        entries_data = request.data.get('entries', [])
+
+        # 1. Delete all existing entries for this week in 1 SQL query
+        TimeEntry.objects.filter(employee=request.user, date__in=dates).delete()
+
+        # 2. Re-create the new entries in 1 bulk SQL transaction
+        new_entries = []
+        for e in entries_data:
+            new_entries.append(TimeEntry(
+                employee=request.user,
+                project_id=e['project'],
+                date=e['date'],
+                hours=e['hours'],
+                task=e.get('task', 'General Task'),
+                notes=e.get('notes', '')
+            ))
+        TimeEntry.objects.bulk_create(new_entries)
+
+        return Response({"status": "success", "created": len(new_entries)})
+
 class ApprovalViewSet(viewsets.ModelViewSet):
     queryset = Approval.objects.all()
     serializer_class = ApprovalSerializer
