@@ -123,6 +123,12 @@ DATABASES = {
 db_url = os.getenv('DATABASE_URL')
 if db_url:
     DATABASES['default'] = dj_database_url.parse(db_url, conn_max_age=0)
+    DATABASES['default']['OPTIONS'] = {
+        # Drop database connection if Neon Proxy doesn't reply in 5s
+        'connect_timeout': 5, 
+        # Kill any query taking over 15s to prevent Gunicorn workers from infinitely deadlocking their threads
+        'options': '-c statement_timeout=15000', 
+    }
 
 
 # Password validation
